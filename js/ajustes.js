@@ -28,7 +28,7 @@ function poner_impresora() {
 }
 function recuperar_impresoras_disponibles() {
     $lista = $("#impresoras");
-    $.get('http://localhost:8000/impresoras', function (respuesta) {
+    $.get('./modulos/lista_impresoras.php', function (respuesta) {
         respuesta = JSON.parse(respuesta);
         if (Array.isArray(respuesta)) {
             if (respuesta.length <= 0) {

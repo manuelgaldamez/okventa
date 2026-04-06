@@ -4,10 +4,10 @@ if (!isset($_SESSION)) exit("<script>window.location.href = '../';</script>");
 <div class="row">
     <div class="col-xs-12">
         <h3 class="text-center">Impresora para tickets <i class="fa fa-print"></i></h3>
-        <div class="alert alert-info">
+        <!-- <div class="alert alert-info">
             Consulta la guía para configurar tu impresora en el apartado <strong>Sobre la impresión de tickets</strong>
             de: <a target="_blank" href="https://parzibyte.me/blog/2022/05/06/punto-venta-php-jquery-bootstrap-gratuito-open-source/">https://parzibyte.me/blog/2022/05/06/punto-venta-php-jquery-bootstrap-gratuito-open-source/</a>
-        </div>
+        </div> -->
         <h5><strong>Nombre de la impresora actualmente seleccionada:</strong> <span id="impresora_seleccionada"></span></h5>
         <div class="form-group">
             <label for="impresoras">

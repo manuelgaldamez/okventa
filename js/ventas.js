@@ -352,7 +352,7 @@ async function imprimirTicketUsandoPlugin(productos, total, cambio, ticket, idVe
         serial,
         operaciones
     };
-    response = await fetch("http://localhost:8000/imprimir", {
+    response = await fetch("./modulos/ticket.php", {
         method: "POST",
         body: JSON.stringify(payload),
     });
